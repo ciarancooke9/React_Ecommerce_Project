@@ -14,6 +14,7 @@ const SignIn = () => {
 
     useEffect(() => {
         redirectFunction();
+        console.log('rdirect triggered');
     }, []);
 
     const logGoogleUser = async () => {
